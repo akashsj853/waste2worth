@@ -1,0 +1,6 @@
+{
+  "name": "Waste2Worth AI",
+  "description": "Identify it. Recover its value. Measure the impact. An AI-powered decision support system for waste segregation, circular resource recovery, compost estimation, and verified sustainability tracking.",
+  "requestFramePermissions": ["camera"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

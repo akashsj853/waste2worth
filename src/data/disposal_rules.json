@@ -1,0 +1,138 @@
+[
+  {
+    "category": "Organic food scraps",
+    "defaultAction": "Organic Composting Route",
+    "title": "Aerobic Composting or Bio-digestion",
+    "explanation": "Food residuals, fruit rinds, vegetable clippings, and tea grounds possess high moisture and organic nitrogen, making them ideal feedstock for microbial decomposition into nutrient-rich humus.",
+    "cautions": "Exclude treated meats, large bones, dog/cat feces, and synthetic cooking grease from home compost bins to avoid anaerobic odors and vermin attraction.",
+    "prepSteps": [
+      "Chop fibrous rinds into 1-2 inch chunks for faster decomposition.",
+      "Pair 1 part food scraps (greens) with 2 parts dry leaves or shredded brown cardboard (browns).",
+      "Aerate the pile weekly to maintain aerobic aerobic microbes."
+    ],
+    "requiresLocalCheck": true,
+    "compostEligible": true,
+    "recyclableEligible": false,
+    "carbonFactorKgCo2PerKg": 0.50,
+    "contaminationOverrideAction": "Residual Waste Disposal"
+  },
+  {
+    "category": "Plastic",
+    "defaultAction": "Recycling Collection",
+    "title": "Rigid Polymer Segregation (PET #1 / HDPE #2 / PP #5)",
+    "explanation": "Clean rigid plastics are shredded, melted, and pelletized into secondary raw resin, displacing virgin petrochemical extraction.",
+    "cautions": "Soft plastic bags, cling wraps, and contaminated greasy food containers jam optical sorting belts and degrade recycled polymer batches.",
+    "prepSteps": [
+      "Empty completely and rinse out leftover liquids or oils.",
+      "Check resin identification code (#1, #2, #5 are widely accepted; #3, #6, #7 often require specialized drop-offs).",
+      "Keep bottle caps screwed on if requested by municipal MRF."
+    ],
+    "requiresLocalCheck": true,
+    "compostEligible": false,
+    "recyclableEligible": true,
+    "carbonFactorKgCo2PerKg": 1.25,
+    "contaminationOverrideAction": "Residual Waste Disposal"
+  },
+  {
+    "category": "Paper and cardboard",
+    "defaultAction": "Recycling Collection",
+    "title": "Dry Fiber Reclamation",
+    "explanation": "Unsoiled corrugated boxes, newsprint, and paperboard can be repulped up to 5-7 times to manufacture new packaging material.",
+    "cautions": "Grease, pizza cheese oils, wax linings, and plastic tape severely spoil paper repulping vats. Greasy cardboard should be torn and added to compost instead.",
+    "prepSteps": [
+      "Flatten boxes to optimize bin volume and logistics efficiency.",
+      "Remove heavy packing tapes, staples, and plastic film envelopes.",
+      "Keep thoroughly dry until municipal collection."
+    ],
+    "requiresLocalCheck": false,
+    "compostEligible": true,
+    "recyclableEligible": true,
+    "carbonFactorKgCo2PerKg": 0.90,
+    "contaminationOverrideAction": "Organic Composting Route"
+  },
+  {
+    "category": "Metal",
+    "defaultAction": "Recycling Collection",
+    "title": "Closed-Loop Smelting & Ingot Casting",
+    "explanation": "Aluminum beverage cans and tin-plated steel food cans are infinitely recyclable without property degradation, saving 95% of the energy needed for virgin bauxite smelting.",
+    "cautions": "Aerosol spray cans containing pressurized solvents or chemical paint cans require hazardous waste drop-off.",
+    "prepSteps": [
+      "Rinse food or sweet drink residue to deter insect contamination.",
+      "Lightly crush aluminum cans to save storage space.",
+      "Do not mix with lithium battery scrap."
+    ],
+    "requiresLocalCheck": false,
+    "compostEligible": false,
+    "recyclableEligible": true,
+    "carbonFactorKgCo2PerKg": 2.10,
+    "contaminationOverrideAction": "Recycling Collection"
+  },
+  {
+    "category": "Glass",
+    "defaultAction": "Recycling Collection",
+    "title": "Cullet Remelt & Container Circularity",
+    "explanation": "Container glass (jars and beverage bottles) melts cleanly at 1400°C into new cullet, requiring 30% less energy than raw silica sand melting.",
+    "cautions": "Do not mix window panes, mirrors, ceramic mugs, Pyrex borosilicate cookware, or light bulbs with bottle glass; their different melting temperatures cause defects in new bottles.",
+    "prepSteps": [
+      "Rinse thoroughly with cold water.",
+      "Remove metal or plastic caps (recycle metal lids separately).",
+      "Do not break containers before dropping off at bottle banks."
+    ],
+    "requiresLocalCheck": true,
+    "compostEligible": false,
+    "recyclableEligible": true,
+    "carbonFactorKgCo2PerKg": 0.35,
+    "contaminationOverrideAction": "Recycling Collection"
+  },
+  {
+    "category": "Textile",
+    "defaultAction": "Textile Upcycling / Drop-off",
+    "title": "Garment Reuse, Downcycling or Fiber Shredding",
+    "explanation": "Wearable garments should be washed and donated; frayed fabrics can be shredded into acoustic insulation, car upholstery padding, or cleaning rags.",
+    "cautions": "Wet or moldy textiles cannot be stored or shredded and may cross-contaminate fabric sorting bins.",
+    "prepSteps": [
+      "Launder and dry items thoroughly prior to collection.",
+      "Separate wearable clothing from damaged rags.",
+      "Remove heavy buttons or non-fabric zippers if donating to shredding stations."
+    ],
+    "requiresLocalCheck": true,
+    "compostEligible": false,
+    "recyclableEligible": false,
+    "carbonFactorKgCo2PerKg": 3.80,
+    "contaminationOverrideAction": "Residual Waste Disposal"
+  },
+  {
+    "category": "Electronic waste",
+    "defaultAction": "Specialized E-Waste Drop-off",
+    "title": "Certified WEEE Recovery & Hazardous Isolation",
+    "explanation": "Printed circuit boards, lithium batteries, cables, and appliances contain precious gold, copper, and palladium, alongside toxic lead and mercury.",
+    "cautions": "NEVER place electronics or batteries into standard household waste or recycling bins. Damaged lithium cells cause severe compactor truck fires.",
+    "prepSteps": [
+      "Tape battery terminals (lithium/NiMH) with electrical tape to avoid short circuits.",
+      "Perform factory reset and remove memory cards from smart devices.",
+      "Take to designated municipal e-waste collection depot or take-back kiosks."
+    ],
+    "requiresLocalCheck": true,
+    "compostEligible": false,
+    "recyclableEligible": false,
+    "carbonFactorKgCo2PerKg": 5.40,
+    "contaminationOverrideAction": "Hazardous Material Handling"
+  },
+  {
+    "category": "Other or unknown",
+    "defaultAction": "Human Verification Required",
+    "title": "Manual Material Inspection & Segregation",
+    "explanation": "The item could not be categorized with sufficient confidence, or comprises non-separable composite materials (e.g. foil-lined chip packets, composite blenders).",
+    "cautions": "Do not guess recyclable status; wish-cycling creates contamination penalties for waste management facilities.",
+    "prepSteps": [
+      "Inspect the material layers (is there foil, plastic laminate, or mixed adhesive?).",
+      "Check manufacturer packaging disposal instructions.",
+      "If in doubt and no local take-back program exists, place in residual dry waste."
+    ],
+    "requiresLocalCheck": true,
+    "compostEligible": false,
+    "recyclableEligible": false,
+    "carbonFactorKgCo2PerKg": 0.05,
+    "contaminationOverrideAction": "Residual Waste Disposal"
+  }
+]
